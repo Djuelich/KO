@@ -45,7 +45,7 @@ public class Main {
 			System.out.println("# Capacity of knapsack: " + instance.getCapacity());
 			System.out.println("###############################################");
 			System.out.println();
-			// TODO: runSolver(new YourSolverHere(instance));
+			runSolver(new knapsackSolver(instance));
 			break;
 		default:
 			throw new IllegalArgumentException(usage);

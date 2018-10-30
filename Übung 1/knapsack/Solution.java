@@ -36,6 +36,11 @@ public class Solution extends GenericSolution<Integer> {
 	@Override
 	public boolean isFeasible() {
 		// TODO: implement this method (and you may then use it in your Solvers)
+		for (int sumWeight : ){
+			if (sumWeight >= 100 && sumWeight <= 0){
+				return false;
+			}
+		}
 	}
 
 	/**
